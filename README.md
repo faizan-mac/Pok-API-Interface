@@ -1,5 +1,5 @@
 # Poke-API-Interface
-Fetches and displays Pokémon from PokéAPI
+Fetches and displays Pokémon from PokéAPI. Made with React Native.
 
 # How to Run
 * Clone or download the repo and extract it.
