@@ -12,4 +12,4 @@ Fetches and displays Pokémon from PokéAPI
 * Clear the list by pressing "CLEAR"
 
 # Example
-![alt text] (https://github.com/faizan-mac/PokeAPI-Interface/blob/main/image.PNG?raw=true)
+![screenshot] (https://github.com/faizan-mac/PokeAPI-Interface/blob/main/image.PNG)
