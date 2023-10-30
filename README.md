@@ -1,4 +1,4 @@
-# PokeAPI-Interface
+# Pokémon Fetcher
 Fetches and displays Pokémon from PokéAPI. Made with React Native.
 
 # How to Run
