@@ -13,7 +13,7 @@ export default function App() {
 
   const getPokemon = async function () {
     let response
-    if (text == "") { response = await fetch("https://pokeapi.co/api/v2/pokemon/0") }
+    if (text == "") { response = await fetch("https://pokeapi.co/api/v2/pokemon/1") }
     else { response = await fetch("https://pokeapi.co/api/v2/pokemon/" + text.toLowerCase()) }
 
     let json = await response.json()
@@ -33,7 +33,7 @@ export default function App() {
         <Image source={{ uri: "https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" }}
           style={{ height: 103, width: 257, margin: 25 }} />
 
-        <Text style={{ fontSize: 16 }}>Enter an ID (1 - 898) or Pokemon name</Text>
+        <Text style={{ fontSize: 16 }}>Enter an ID (1 - 1017) or Pokemon name</Text>
 
         <View style={styles.row}>
           <Button onPress={getPokemon} title="Fetch" color="royalblue"></Button>
